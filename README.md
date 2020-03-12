@@ -2,6 +2,13 @@
 
 ## Running the app locally
 
+### Creating the virtualenv
+
+```
+virtualenv venv
+. venv/bin/activate
+```
+
 ### Creating tables locally
 
 First of all, we'll need to create the tables in the DB:
