@@ -10,7 +10,6 @@ app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///quotes.db"
 if "DATABASE_URL" in os.environ:
     app.config["SQLALCHEMY_DATABASE_URI"] = os.environ["DATABASE_URL"]
 
-
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
 port = "5000"
